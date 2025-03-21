@@ -17,3 +17,11 @@ const JokeBase = () => {
         return line [Math.floor(Math.random() * 4)]
   }; let punchResult = punchline();
   console.log(punchResult);
+
+
+  console.log(` ====    ====
+                  0      0
+                     ||
+                     ==
+                    ||||
+                    `)
