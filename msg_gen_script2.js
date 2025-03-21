@@ -18,10 +18,11 @@ const JokeBase = () => {
   }; let punchResult = punchline();
   console.log(punchResult);
 
-
-  console.log(` ====    ====
-                  0      0
-                     ||
-                     ==
-                    ||||
+// ASCII art needs to be input with backticks for it to work in console log
+  console.log(`
+     ====    ====
+       0      0
+          ||
+          ==
+         ||||
                     `)
